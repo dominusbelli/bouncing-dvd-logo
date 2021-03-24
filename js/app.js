@@ -27,7 +27,8 @@ let dvd = {
 
 function update() {
     setTimeout(() => {
-        //Draw the canvas background
+        //Clear the canvas background
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
         //ctx.fillStyle = '#000';
         //ctx.fillRect(0, 0, canvas.width, canvas.height);
         //Draw DVD Logo and his background
